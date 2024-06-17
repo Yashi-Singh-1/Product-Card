@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Product Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <!-- Front side of the card -->
+            <div class="front">
+                <div class="slider">
+                    <div class="slides">
+                        <img src="images/dress-1.jpg" alt="Dress 1">
+                        <img src="images/dress-2.jpg" alt="Dress 2">
+                        <img src="images/dress-3.jpg" alt="Dress 3">
+                    </div>
+                    <div class="navigation">
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                </div>
+                <h2>Elegant Evening Dress</h2>
+                <p>$79.99</p>
+                <button class="view-details">View Details</button>
+            </div>
+            <!-- Back side of the card -->
+            <div class="back">
+                <h3>Details</h3>
+                <p>Material: 100% Silk</p>
+                <p>Care: Dry Clean Only</p>
+                <p>Available Sizes: S, M, L, XL, XXL, XXXL</p>
+                <div class="size-options">
+                    <input type="radio" id="sizeS" name="size" value="S">
+                    <label for="sizeS" class="size-circle">S</label>
+                    <input type="radio" id="sizeM" name="size" value="M">
+                    <label for="sizeM" class="size-circle">M</label>
+                    <input type="radio" id="sizeL" name="size" value="L">
+                    <label for="sizeL" class="size-circle">L</label>
+                    <input type="radio" id="sizeXL" name="size" value="XL">
+                    <label for="sizeXL" class="size-circle">XL</label>
+                    <input type="radio" id="sizeXXL" name="size" value="XXL">
+                    <label for="sizeXXL" class="size-circle">2XL</label>
+                    <input type="radio" id="sizeXXXL" name="size" value="XXXL">
+                    <label for="sizeXXXL" class="size-circle">3XL</label>
+                </div>
+                <button class="view-product">View Product</button>
+                <button class="buy-now">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
